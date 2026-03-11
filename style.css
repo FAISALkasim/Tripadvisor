@@ -1,0 +1,206 @@
+*{
+
+
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    font-family: poppins,sans-serif;
+}
+
+.navbar{
+
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px black solid;
+}
+
+.navbar__s1 h1{
+
+    color: #102B11;
+}
+
+.navbar__s2__p{
+
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding: 10px;
+    color: #102B11;
+    
+
+}
+
+.navbar__s3{
+
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.navbar__s3_p{
+
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    width: fit-content;
+    height: fit-content;
+    align-items: center;
+
+}
+
+.heading{
+
+    text-align: center;
+    margin-top: 5px;
+}
+
+.heading__title{
+
+    font-size: 60px;
+    color: #102B11;
+
+}
+
+.heading__section{
+
+
+    display: flex;
+    gap: 15px;
+    color: #102B11;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.heading__section2{
+
+
+    margin-top: 20px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    position: relative;
+    left: 600px;
+    border-radius: 30px;
+    padding: 20px;
+    gap: 10px;
+    
+    
+}
+
+.heading__section2 input{
+
+    border: none;
+    font-size: large;
+    width: fit-content;
+}
+
+.heading__section2 input:hover{
+
+    outline: none;
+}
+
+.section__image img{
+
+    width: 90%;
+}
+.section__image{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Recomended{
+
+    padding: 20px;
+    width: 40%;
+    height: 800px;
+}
+
+.card img{
+
+    width: 100%;
+    height: 50%;
+}
+
+.card{
+
+    flex-grow: 1;
+    flex-basis: 10%;
+    height: 800px;
+}
+
+.Recomended__container{
+
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+    gap: 15px;
+}
+
+.Recomended h3,.Recomended p{
+
+    margin-left: 40px;
+}
+
+.footer{
+
+
+    padding: 20px;
+    background-color: #F7F7F7;
+    color: #102B11;
+
+}
+
+.footer__s1{
+
+    padding: 20px;
+    text-align: center;
+    
+
+}
+
+.footer__s2{
+
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.footer__s2 p{
+
+    margin: 20px;
+    cursor: pointer;
+}
+
+.footer__s3{
+
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width:600px) {
+    
+    .navbar__s2{
+
+        display: none;
+    }
+
+    .card{
+
+        flex-basis: 10%;
+    }
+
+    body{
+
+        font-size: small;
+    }
+}
