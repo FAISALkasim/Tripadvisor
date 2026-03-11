@@ -196,7 +196,13 @@ body{
 
     .card{
 
-        flex-basis: 10%;
+        flex-basis: 4%;
+        
+    }
+
+    .Recomended__container{
+
+        
     }
 
     body{
